@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bruin Class Planner</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+
+    <!-- Header -->
+    <header class="header" id="top">
+      <div class="text-vertical-center">
+        <h1>Bruin Class Planner</h1>
+        <h3>Plan your class in a smart way</h3>
+        <br>
+        <a href="#about" class="btn btn-dark btn-lg js-scroll-trigger">Get Started</a>
+      </div>
+    </header>
+
+
+    <!-- Services -->
+    <section id="about" class="services bg-primary text-white">
+
+      <div class='service-container'>
+        <div class='container'>
+          <form action="/search" method="POST" onkeypress="return event.keyCode != 13;">
+
+            <div class="row text-center">
+              <div class="col-lg-10 mx-auto">
+                <h2>Select Your Class</h2>
+                <hr>
+
+                <div class="row search"  id="1">
+                  <div class="col-md-6 col-sm-6" >
+                      <label>Subject Area</label>
+                        <input class="form-control dropdown" list="somethingelse" name="sub1">
+                        <datalist id="somethingelse">
+                          <option value = "Aerospace Studies"></option>
+                          <option value = "African American Studies"></option>
+                          <option value = "African Studies"></option>
+                          <option value = "Afrikaans"></option>
+                          <option value = "American Indian Studies"></option>
+                          <option value = "American Sign Language"></option>
+                          <option value = "Ancient Near East"></option>
+                          <option value = "Anesthesiology"></option>
+                          <option value = "Anthropology"></option>
+                          <option value = "Applied Linguistics"></option>
+                          <option value = "Archaeology"></option>
+                          <option value = "Architecture and Urban Design"></option>
+                          <option value = "Armenian"></option>
+                          <option value = "Art"></option>
+                          <option value = "Art History"></option>
+                          <option value = "Arts and Architecture"></option>
+                          <option value = "Asian American Studies"></option>
+                          <option value = "Astronomy"></option>
+                          <option value = "Atmospheric and Oceanic Sciences"></option>
+                          <option value = "Bioengineering"></option>
+                          <option value = "Bioinformatics"></option>
+                          <option value = "Biological Chemistry"></option>
+                          <option value = "Biomathematics"></option>
+                          <option value = "Biomedical Research"></option>
+                          <option value = "Biostatistics"></option>
+                          <option value = "Central and East European Studies"></option>
+                          <option value = "Chemical Engineering"></option>
+                          <option value = "Chemistry and Biochemistry"></option>
+                          <option value = "Chicana and Chicano Studies"></option>
+                          <option value = "Chinese"></option>
+                          <option value = "Civic Engagement"></option>
+                          <option value = "Civil and Environmental Engineering"></option>
+                          <option value = "Classics"></option>
+                          <option value = "Clusters"></option>
+                          <option value = "Communication"></option>
+                          <option value = "Community Health Sciences"></option>
+                          <option value = "Comparative Literature"></option>
+                          <option value = "Computational and Systems Biology"></option>
+                          <option value = "Computer Science"></option>
+                          <option value = "Conservation of Archaeological and Ethnographic Materials"></option>
+                          <option value = "Dance"></option>
+                          <option value = "Design | Media Arts"></option>
+                          <option value = "Digital Humanities"></option>
+                          <option value = "Disability Studies "></option>
+                          <option value = "Dutch"></option>
+                          <option value = "Earth Planetary and Space Sciences"></option>
+                          <option value = "Ecology and Evolutionary Biology"></option>
+                          <option value = "Economics"></option>
+                          <option value = "Education"></option>
+                          <option value = "Electrical and Computer Engineering"></option>
+                          <option value = "Electrical Engineering"></option>
+                          <option value = "Engineering"></option>
+                          <option value = "English"></option>
+                          <option value = "English as A Second Language"></option>
+                          <option value = "English Composition"></option>
+                          <option value = "Environment"></option>
+                          <option value = "Environmental Health Sciences"></option>
+                          <option value = "Epidemiology"></option>
+                          <option value = "Ethnomusicology"></option>
+                          <option value = "Filipino"></option>
+                          <option value = "Film and Television"></option>
+                          <option value = "French"></option>
+                          <option value = "Gender Studies"></option>
+                          <option value = "Geography"></option>
+                          <option value = "German"></option>
+                          <option value = "Gerontology"></option>
+                          <option value = "Global Health"></option>
+                          <option value = "Global Studies"></option>
+                          <option value = "Graduate Student Professional Development"></option>
+                          <option value = "Greek"></option>
+                          <option value = "Health Policy and Management"></option>
+                          <option value = "Hebrew"></option>
+                          <option value = "Hindi-Urdu"></option>
+                          <option value = "History"></option>
+                          <option value = "Honors Collegium"></option>
+                          <option value = "Human Genetics"></option>
+                          <option value = "Hungarian"></option>
+                          <option value = "Indigenous Languages of the Americas"></option>
+                          <option value = "Indo-European Studies"></option>
+                          <option value = "Indonesian"></option>
+                          <option value = "Information Studies"></option>
+                          <option value = "International and Area Studies"></option>
+                          <option value = "International Development Studies"></option>
+                          <option value = "Iranian"></option>
+                          <option value = "Islamic Studies"></option>
+                          <option value = "Italian"></option>
+                          <option value = "Japanese"></option>
+                          <option value = "Jewish Studies"></option>
+                          <option value = "Korean"></option>
+                          <option value = "Labor and Workplace Studies"></option>
+                          <option value = "Latin"></option>
+                          <option value = "Latin American Studies"></option>
+                          <option value = "Lesbian Gay Bisexual Transgender and Queer Studies"></option>
+                          <option value = "Life Sciences"></option>
+                          <option value = "Linguistics"></option>
+                          <option value = "Management"></option>
+                          <option value = "Management-Master of Financial Engineering"></option>
+                          <option value = "Management-Master of Science in Business Analytics"></option>
+                          <option value = "Management-PhD"></option>
+                          <option value = "Materials Science and Engineering"></option>
+                          <option value = "Mathematics"></option>
+                          <option value = "Mechanical and Aerospace Engineering"></option>
+                          <option value = "Medical History"></option>
+                          <option value = "Medicine"></option>
+                          <option value = "Microbiology Immunology and Molecular Genetics"></option>
+                          <option value = "Middle Eastern Studies"></option>
+                          <option value = "Military Science"></option>
+                          <option value = "Molecular and Medical Pharmacology"></option>
+                          <option value = "Molecular Biology"></option>
+                          <option value = "Molecular Toxicology"></option>
+                          <option value = "Molecular Cell and Developmental Biology"></option>
+                          <option value = "Molecular Cellular and Integrative Physiology"></option>
+                          <option value = "Music"></option>
+                          <option value = "Music History"></option>
+                          <option value = "Music Industry"></option>
+                          <option value = "Musicology"></option>
+                          <option value = "Naval Science"></option>
+                          <option value = "Near Eastern Languages"></option>
+                          <option value = "Neurobiology"></option>
+                          <option value = "Neurology"></option>
+                          <option value = "Neuroscience"></option>
+                          <option value = "Neuroscience"></option>
+                          <option value = "Nursing"></option>
+                          <option value = "Obstetrics and Gynecology"></option>
+                          <option value = "Oral Biology"></option>
+                          <option value = "Pathology and Laboratory Medicine"></option>
+                          <option value = "Philosophy"></option>
+                          <option value = "Phyiscs"></option>
+                          <option value = "Physics and Biology in Medicine"></option>
+                          <option value = "Physiology"></option>
+                          <option value = "Polish"></option>
+                          <option value = "Political Science"></option>
+                          <option value = "Portuguese"></option>
+                          <option value = "Program in Computing"></option>
+                          <option value = "Psychiatry and Biobehavioral Sciences"></option>
+                          <option value = "Psychology"></option>
+                          <option value = "Public Health"></option>
+                          <option value = "Public Policy"></option>
+                          <option value = "Religion Study of"></option>
+                          <option value = "Romanian"></option>
+                          <option value = "Russian"></option>
+                          <option value = "Scandinavian"></option>
+                          <option value = "Science Education"></option>
+                          <option value = "Semitic"></option>
+                          <option value = "Serbian/Croatian"></option>
+                          <option value = "Slavic"></option>
+                          <option value = "Social Science"></option>
+                          <option value = "Social Thought"></option>
+                          <option value = "Social Welfare"></option>
+                          <option value = "Society and Genetics"></option>
+                          <option value = "Sociology"></option>
+                          <option value = "South Asian"></option>
+                          <option value = "Southeast Asian"></option>
+                          <option value = "Spanish"></option>
+                          <option value = "Statistics"></option>
+                          <option value = "Surgery "></option>
+                          <option value = "Swahili "></option>
+                          <option value = "Thai"></option>
+                          <option value = "Theater"></option>
+                          <option value = "Turkic Languages"></option>
+                          <option value = "University Studies"></option>
+                          <option value = "Urban Planning"></option>
+                          <option value = "Vietnamese"></option>
+                          <option value = "World Arts and Cultures"></option>
+                          <option value = "Yiddish"></option>
+                        </datalist>
+                        
+                        <div class="messages">Please selected subject area</div>
+                  </div>
+                  <div class="col-md-5 col-sm-5">
+                      <label>Class ID</label>
+                      <input class="form-control" type="text" name="class1">
+                      <div class="messages">Example. <b>CS33</b> input <b>33</b>, <b>Physics 4AL</b> input <b>4AL</b></div>
+                    
+                  </div>
+                </div>
+                <!-- /.row (nested) -->
+
+                <div class="row  search"  id="2">
+                  <div class="col-md-5 col-sm-5" >
+                      <label>Subject Area
+                        <input class="form-control dropdown" list="somethingelse" name="sub2">
+                        <datalist id="somethingelse">
+                          <option value = "Aerospace Studies"></option>
+                          <option value = "African American Studies"></option>
+                          <option value = "African Studies"></option>
+                          <option value = "Afrikaans"></option>
+                          <option value = "American Indian Studies"></option>
+                          <option value = "American Sign Language"></option>
+                          <option value = "Ancient Near East"></option>
+                          <option value = "Anesthesiology"></option>
+                          <option value = "Anthropology"></option>
+                          <option value = "Applied Linguistics"></option>
+                          <option value = "Archaeology"></option>
+                          <option value = "Architecture and Urban Design"></option>
+                          <option value = "Armenian"></option>
+                          <option value = "Art"></option>
+                          <option value = "Art History"></option>
+                          <option value = "Arts and Architecture"></option>
+                          <option value = "Asian American Studies"></option>
+                          <option value = "Astronomy"></option>
+                          <option value = "Atmospheric and Oceanic Sciences"></option>
+                          <option value = "Bioengineering"></option>
+                          <option value = "Bioinformatics"></option>
+                          <option value = "Biological Chemistry"></option>
+                          <option value = "Biomathematics"></option>
+                          <option value = "Biomedical Research"></option>
+                          <option value = "Biostatistics"></option>
+                          <option value = "Central and East European Studies"></option>
+                          <option value = "Chemical Engineering"></option>
+                          <option value = "Chemistry and Biochemistry"></option>
+                          <option value = "Chicana and Chicano Studies"></option>
+                          <option value = "Chinese"></option>
+                          <option value = "Civic Engagement"></option>
+                          <option value = "Civil and Environmental Engineering"></option>
+                          <option value = "Classics"></option>
+                          <option value = "Clusters"></option>
+                          <option value = "Communication"></option>
+                          <option value = "Community Health Sciences"></option>
+                          <option value = "Comparative Literature"></option>
+                          <option value = "Computational and Systems Biology"></option>
+                          <option value = "Computer Science"></option>
+                          <option value = "Conservation of Archaeological and Ethnographic Materials"></option>
+                          <option value = "Dance"></option>
+                          <option value = "Design | Media Arts"></option>
+                          <option value = "Digital Humanities"></option>
+                          <option value = "Disability Studies "></option>
+                          <option value = "Dutch"></option>
+                          <option value = "Earth Planetary and Space Sciences"></option>
+                          <option value = "Ecology and Evolutionary Biology"></option>
+                          <option value = "Economics"></option>
+                          <option value = "Education"></option>
+                          <option value = "Electrical and Computer Engineering"></option>
+                          <option value = "Electrical Engineering"></option>
+                          <option value = "Engineering"></option>
+                          <option value = "English"></option>
+                          <option value = "English as A Second Language"></option>
+                          <option value = "English Composition"></option>
+                          <option value = "Environment"></option>
+                          <option value = "Environmental Health Sciences"></option>
+                          <option value = "Epidemiology"></option>
+                          <option value = "Ethnomusicology"></option>
+                          <option value = "Filipino"></option>
+                          <option value = "Film and Television"></option>
+                          <option value = "French"></option>
+                          <option value = "Gender Studies"></option>
+                          <option value = "Geography"></option>
+                          <option value = "German"></option>
+                          <option value = "Gerontology"></option>
+                          <option value = "Global Health"></option>
+                          <option value = "Global Studies"></option>
+                          <option value = "Graduate Student Professional Development"></option>
+                          <option value = "Greek"></option>
+                          <option value = "Health Policy and Management"></option>
+                          <option value = "Hebrew"></option>
+                          <option value = "Hindi-Urdu"></option>
+                          <option value = "History"></option>
+                          <option value = "Honors Collegium"></option>
+                          <option value = "Human Genetics"></option>
+                          <option value = "Hungarian"></option>
+                          <option value = "Indigenous Languages of the Americas"></option>
+                          <option value = "Indo-European Studies"></option>
+                          <option value = "Indonesian"></option>
+                          <option value = "Information Studies"></option>
+                          <option value = "International and Area Studies"></option>
+                          <option value = "International Development Studies"></option>
+                          <option value = "Iranian"></option>
+                          <option value = "Islamic Studies"></option>
+                          <option value = "Italian"></option>
+                          <option value = "Japanese"></option>
+                          <option value = "Jewish Studies"></option>
+                          <option value = "Korean"></option>
+                          <option value = "Labor and Workplace Studies"></option>
+                          <option value = "Latin"></option>
+                          <option value = "Latin American Studies"></option>
+                          <option value = "Lesbian Gay Bisexual Transgender and Queer Studies"></option>
+                          <option value = "Life Sciences"></option>
+                          <option value = "Linguistics"></option>
+                          <option value = "Management"></option>
+                          <option value = "Management-Master of Financial Engineering"></option>
+                          <option value = "Management-Master of Science in Business Analytics"></option>
+                          <option value = "Management-PhD"></option>
+                          <option value = "Materials Science and Engineering"></option>
+                          <option value = "Mathematics"></option>
+                          <option value = "Mechanical and Aerospace Engineering"></option>
+                          <option value = "Medical History"></option>
+                          <option value = "Medicine"></option>
+                          <option value = "Microbiology Immunology and Molecular Genetics"></option>
+                          <option value = "Middle Eastern Studies"></option>
+                          <option value = "Military Science"></option>
+                          <option value = "Molecular and Medical Pharmacology"></option>
+                          <option value = "Molecular Biology"></option>
+                          <option value = "Molecular Toxicology"></option>
+                          <option value = "Molecular Cell and Developmental Biology"></option>
+                          <option value = "Molecular Cellular and Integrative Physiology"></option>
+                          <option value = "Music"></option>
+                          <option value = "Music History"></option>
+                          <option value = "Music Industry"></option>
+                          <option value = "Musicology"></option>
+                          <option value = "Naval Science"></option>
+                          <option value = "Near Eastern Languages"></option>
+                          <option value = "Neurobiology"></option>
+                          <option value = "Neurology"></option>
+                          <option value = "Neuroscience"></option>
+                          <option value = "Neuroscience"></option>
+                          <option value = "Nursing"></option>
+                          <option value = "Obstetrics and Gynecology"></option>
+                          <option value = "Oral Biology"></option>
+                          <option value = "Pathology and Laboratory Medicine"></option>
+                          <option value = "Philosophy"></option>
+                          <option value = "Phyiscs"></option>
+                          <option value = "Physics and Biology in Medicine"></option>
+                          <option value = "Physiology"></option>
+                          <option value = "Polish"></option>
+                          <option value = "Political Science"></option>
+                          <option value = "Portuguese"></option>
+                          <option value = "Program in Computing"></option>
+                          <option value = "Psychiatry and Biobehavioral Sciences"></option>
+                          <option value = "Psychology"></option>
+                          <option value = "Public Health"></option>
+                          <option value = "Public Policy"></option>
+                          <option value = "Religion Study of"></option>
+                          <option value = "Romanian"></option>
+                          <option value = "Russian"></option>
+                          <option value = "Scandinavian"></option>
+                          <option value = "Science Education"></option>
+                          <option value = "Semitic"></option>
+                          <option value = "Serbian/Croatian"></option>
+                          <option value = "Slavic"></option>
+                          <option value = "Social Science"></option>
+                          <option value = "Social Thought"></option>
+                          <option value = "Social Welfare"></option>
+                          <option value = "Society and Genetics"></option>
+                          <option value = "Sociology"></option>
+                          <option value = "South Asian"></option>
+                          <option value = "Southeast Asian"></option>
+                          <option value = "Spanish"></option>
+                          <option value = "Statistics"></option>
+                          <option value = "Surgery "></option>
+                          <option value = "Swahili "></option>
+                          <option value = "Thai"></option>
+                          <option value = "Theater"></option>
+                          <option value = "Turkic Languages"></option>
+                          <option value = "University Studies"></option>
+                          <option value = "Urban Planning"></option>
+                          <option value = "Vietnamese"></option>
+                          <option value = "World Arts and Cultures"></option>
+                          <option value = "Yiddish"></option>
+                        </datalist>
+                        </label>
+                  </div>
+                  <div class="col-md-5 col-sm-5">
+                      <label>Class ID</label>
+                      <input class="form-control" type="text" name="class2">
+                      <div class="messages">Example. <b>CS33</b> input <b>33</b>, <b>Physics 4AL</b> input <b>4AL</b></div>
+                    
+                  </div>
+                </div>
+                <!-- /.row (nested) -->
+
+                <div class="row search"  id="3">
+                  <div class="col-md-6 col-sm-6" >
+                      <label>Subject Area
+                        <input class="form-control dropdown" list="somethingelse" name="sub3">
+                        <datalist id="somethingelse">
+                          <option value = "Aerospace Studies"></option>
+                          <option value = "African American Studies"></option>
+                          <option value = "African Studies"></option>
+                          <option value = "Afrikaans"></option>
+                          <option value = "American Indian Studies"></option>
+                          <option value = "American Sign Language"></option>
+                          <option value = "Ancient Near East"></option>
+                          <option value = "Anesthesiology"></option>
+                          <option value = "Anthropology"></option>
+                          <option value = "Applied Linguistics"></option>
+                          <option value = "Archaeology"></option>
+                          <option value = "Architecture and Urban Design"></option>
+                          <option value = "Armenian"></option>
+                          <option value = "Art"></option>
+                          <option value = "Art History"></option>
+                          <option value = "Arts and Architecture"></option>
+                          <option value = "Asian American Studies"></option>
+                          <option value = "Astronomy"></option>
+                          <option value = "Atmospheric and Oceanic Sciences"></option>
+                          <option value = "Bioengineering"></option>
+                          <option value = "Bioinformatics"></option>
+                          <option value = "Biological Chemistry"></option>
+                          <option value = "Biomathematics"></option>
+                          <option value = "Biomedical Research"></option>
+                          <option value = "Biostatistics"></option>
+                          <option value = "Central and East European Studies"></option>
+                          <option value = "Chemical Engineering"></option>
+                          <option value = "Chemistry and Biochemistry"></option>
+                          <option value = "Chicana and Chicano Studies"></option>
+                          <option value = "Chinese"></option>
+                          <option value = "Civic Engagement"></option>
+                          <option value = "Civil and Environmental Engineering"></option>
+                          <option value = "Classics"></option>
+                          <option value = "Clusters"></option>
+                          <option value = "Communication"></option>
+                          <option value = "Community Health Sciences"></option>
+                          <option value = "Comparative Literature"></option>
+                          <option value = "Computational and Systems Biology"></option>
+                          <option value = "Computer Science"></option>
+                          <option value = "Conservation of Archaeological and Ethnographic Materials"></option>
+                          <option value = "Dance"></option>
+                          <option value = "Design | Media Arts"></option>
+                          <option value = "Digital Humanities"></option>
+                          <option value = "Disability Studies "></option>
+                          <option value = "Dutch"></option>
+                          <option value = "Earth Planetary and Space Sciences"></option>
+                          <option value = "Ecology and Evolutionary Biology"></option>
+                          <option value = "Economics"></option>
+                          <option value = "Education"></option>
+                          <option value = "Electrical and Computer Engineering"></option>
+                          <option value = "Electrical Engineering"></option>
+                          <option value = "Engineering"></option>
+                          <option value = "English"></option>
+                          <option value = "English as A Second Language"></option>
+                          <option value = "English Composition"></option>
+                          <option value = "Environment"></option>
+                          <option value = "Environmental Health Sciences"></option>
+                          <option value = "Epidemiology"></option>
+                          <option value = "Ethnomusicology"></option>
+                          <option value = "Filipino"></option>
+                          <option value = "Film and Television"></option>
+                          <option value = "French"></option>
+                          <option value = "Gender Studies"></option>
+                          <option value = "Geography"></option>
+                          <option value = "German"></option>
+                          <option value = "Gerontology"></option>
+                          <option value = "Global Health"></option>
+                          <option value = "Global Studies"></option>
+                          <option value = "Graduate Student Professional Development"></option>
+                          <option value = "Greek"></option>
+                          <option value = "Health Policy and Management"></option>
+                          <option value = "Hebrew"></option>
+                          <option value = "Hindi-Urdu"></option>
+                          <option value = "History"></option>
+                          <option value = "Honors Collegium"></option>
+                          <option value = "Human Genetics"></option>
+                          <option value = "Hungarian"></option>
+                          <option value = "Indigenous Languages of the Americas"></option>
+                          <option value = "Indo-European Studies"></option>
+                          <option value = "Indonesian"></option>
+                          <option value = "Information Studies"></option>
+                          <option value = "International and Area Studies"></option>
+                          <option value = "International Development Studies"></option>
+                          <option value = "Iranian"></option>
+                          <option value = "Islamic Studies"></option>
+                          <option value = "Italian"></option>
+                          <option value = "Japanese"></option>
+                          <option value = "Jewish Studies"></option>
+                          <option value = "Korean"></option>
+                          <option value = "Labor and Workplace Studies"></option>
+                          <option value = "Latin"></option>
+                          <option value = "Latin American Studies"></option>
+                          <option value = "Lesbian Gay Bisexual Transgender and Queer Studies"></option>
+                          <option value = "Life Sciences"></option>
+                          <option value = "Linguistics"></option>
+                          <option value = "Management"></option>
+                          <option value = "Management-Master of Financial Engineering"></option>
+                          <option value = "Management-Master of Science in Business Analytics"></option>
+                          <option value = "Management-PhD"></option>
+                          <option value = "Materials Science and Engineering"></option>
+                          <option value = "Mathematics"></option>
+                          <option value = "Mechanical and Aerospace Engineering"></option>
+                          <option value = "Medical History"></option>
+                          <option value = "Medicine"></option>
+                          <option value = "Microbiology Immunology and Molecular Genetics"></option>
+                          <option value = "Middle Eastern Studies"></option>
+                          <option value = "Military Science"></option>
+                          <option value = "Molecular and Medical Pharmacology"></option>
+                          <option value = "Molecular Biology"></option>
+                          <option value = "Molecular Toxicology"></option>
+                          <option value = "Molecular Cell and Developmental Biology"></option>
+                          <option value = "Molecular Cellular and Integrative Physiology"></option>
+                          <option value = "Music"></option>
+                          <option value = "Music History"></option>
+                          <option value = "Music Industry"></option>
+                          <option value = "Musicology"></option>
+                          <option value = "Naval Science"></option>
+                          <option value = "Near Eastern Languages"></option>
+                          <option value = "Neurobiology"></option>
+                          <option value = "Neurology"></option>
+                          <option value = "Neuroscience"></option>
+                          <option value = "Neuroscience"></option>
+                          <option value = "Nursing"></option>
+                          <option value = "Obstetrics and Gynecology"></option>
+                          <option value = "Oral Biology"></option>
+                          <option value = "Pathology and Laboratory Medicine"></option>
+                          <option value = "Philosophy"></option>
+                          <option value = "Phyiscs"></option>
+                          <option value = "Physics and Biology in Medicine"></option>
+                          <option value = "Physiology"></option>
+                          <option value = "Polish"></option>
+                          <option value = "Political Science"></option>
+                          <option value = "Portuguese"></option>
+                          <option value = "Program in Computing"></option>
+                          <option value = "Psychiatry and Biobehavioral Sciences"></option>
+                          <option value = "Psychology"></option>
+                          <option value = "Public Health"></option>
+                          <option value = "Public Policy"></option>
+                          <option value = "Religion Study of"></option>
+                          <option value = "Romanian"></option>
+                          <option value = "Russian"></option>
+                          <option value = "Scandinavian"></option>
+                          <option value = "Science Education"></option>
+                          <option value = "Semitic"></option>
+                          <option value = "Serbian/Croatian"></option>
+                          <option value = "Slavic"></option>
+                          <option value = "Social Science"></option>
+                          <option value = "Social Thought"></option>
+                          <option value = "Social Welfare"></option>
+                          <option value = "Society and Genetics"></option>
+                          <option value = "Sociology"></option>
+                          <option value = "South Asian"></option>
+                          <option value = "Southeast Asian"></option>
+                          <option value = "Spanish"></option>
+                          <option value = "Statistics"></option>
+                          <option value = "Surgery "></option>
+                          <option value = "Swahili "></option>
+                          <option value = "Thai"></option>
+                          <option value = "Theater"></option>
+                          <option value = "Turkic Languages"></option>
+                          <option value = "University Studies"></option>
+                          <option value = "Urban Planning"></option>
+                          <option value = "Vietnamese"></option>
+                          <option value = "World Arts and Cultures"></option>
+                          <option value = "Yiddish"></option>
+                        </datalist>
+                        </label>
+                  </div>
+                  <div class="col-md-5 col-sm-5">
+                      <label>Class ID</label>
+                      <input class="form-control" type="text" name="class3">
+                      <div class="messages">Example. <b>CS33</b> input <b>33</b>, <b>Physics 4AL</b> input <b>4AL</b></div>
+                    
+                  </div>
+                </div>
+                <!-- /.row (nested) -->
+
+                <div class="row search"  id="4">
+                  <div class="col-md-6 col-sm-6" >
+                      <label>Subject Area
+                        <input class="form-control dropdown" list="somethingelse" name="sub4">
+                        <datalist id="somethingelse">
+                          <option value = "Aerospace Studies"></option>
+                          <option value = "African American Studies"></option>
+                          <option value = "African Studies"></option>
+                          <option value = "Afrikaans"></option>
+                          <option value = "American Indian Studies"></option>
+                          <option value = "American Sign Language"></option>
+                          <option value = "Ancient Near East"></option>
+                          <option value = "Anesthesiology"></option>
+                          <option value = "Anthropology"></option>
+                          <option value = "Applied Linguistics"></option>
+                          <option value = "Archaeology"></option>
+                          <option value = "Architecture and Urban Design"></option>
+                          <option value = "Armenian"></option>
+                          <option value = "Art"></option>
+                          <option value = "Art History"></option>
+                          <option value = "Arts and Architecture"></option>
+                          <option value = "Asian American Studies"></option>
+                          <option value = "Astronomy"></option>
+                          <option value = "Atmospheric and Oceanic Sciences"></option>
+                          <option value = "Bioengineering"></option>
+                          <option value = "Bioinformatics"></option>
+                          <option value = "Biological Chemistry"></option>
+                          <option value = "Biomathematics"></option>
+                          <option value = "Biomedical Research"></option>
+                          <option value = "Biostatistics"></option>
+                          <option value = "Central and East European Studies"></option>
+                          <option value = "Chemical Engineering"></option>
+                          <option value = "Chemistry and Biochemistry"></option>
+                          <option value = "Chicana and Chicano Studies"></option>
+                          <option value = "Chinese"></option>
+                          <option value = "Civic Engagement"></option>
+                          <option value = "Civil and Environmental Engineering"></option>
+                          <option value = "Classics"></option>
+                          <option value = "Clusters"></option>
+                          <option value = "Communication"></option>
+                          <option value = "Community Health Sciences"></option>
+                          <option value = "Comparative Literature"></option>
+                          <option value = "Computational and Systems Biology"></option>
+                          <option value = "Computer Science"></option>
+                          <option value = "Conservation of Archaeological and Ethnographic Materials"></option>
+                          <option value = "Dance"></option>
+                          <option value = "Design | Media Arts"></option>
+                          <option value = "Digital Humanities"></option>
+                          <option value = "Disability Studies "></option>
+                          <option value = "Dutch"></option>
+                          <option value = "Earth Planetary and Space Sciences"></option>
+                          <option value = "Ecology and Evolutionary Biology"></option>
+                          <option value = "Economics"></option>
+                          <option value = "Education"></option>
+                          <option value = "Electrical and Computer Engineering"></option>
+                          <option value = "Electrical Engineering"></option>
+                          <option value = "Engineering"></option>
+                          <option value = "English"></option>
+                          <option value = "English as A Second Language"></option>
+                          <option value = "English Composition"></option>
+                          <option value = "Environment"></option>
+                          <option value = "Environmental Health Sciences"></option>
+                          <option value = "Epidemiology"></option>
+                          <option value = "Ethnomusicology"></option>
+                          <option value = "Filipino"></option>
+                          <option value = "Film and Television"></option>
+                          <option value = "French"></option>
+                          <option value = "Gender Studies"></option>
+                          <option value = "Geography"></option>
+                          <option value = "German"></option>
+                          <option value = "Gerontology"></option>
+                          <option value = "Global Health"></option>
+                          <option value = "Global Studies"></option>
+                          <option value = "Graduate Student Professional Development"></option>
+                          <option value = "Greek"></option>
+                          <option value = "Health Policy and Management"></option>
+                          <option value = "Hebrew"></option>
+                          <option value = "Hindi-Urdu"></option>
+                          <option value = "History"></option>
+                          <option value = "Honors Collegium"></option>
+                          <option value = "Human Genetics"></option>
+                          <option value = "Hungarian"></option>
+                          <option value = "Indigenous Languages of the Americas"></option>
+                          <option value = "Indo-European Studies"></option>
+                          <option value = "Indonesian"></option>
+                          <option value = "Information Studies"></option>
+                          <option value = "International and Area Studies"></option>
+                          <option value = "International Development Studies"></option>
+                          <option value = "Iranian"></option>
+                          <option value = "Islamic Studies"></option>
+                          <option value = "Italian"></option>
+                          <option value = "Japanese"></option>
+                          <option value = "Jewish Studies"></option>
+                          <option value = "Korean"></option>
+                          <option value = "Labor and Workplace Studies"></option>
+                          <option value = "Latin"></option>
+                          <option value = "Latin American Studies"></option>
+                          <option value = "Lesbian Gay Bisexual Transgender and Queer Studies"></option>
+                          <option value = "Life Sciences"></option>
+                          <option value = "Linguistics"></option>
+                          <option value = "Management"></option>
+                          <option value = "Management-Master of Financial Engineering"></option>
+                          <option value = "Management-Master of Science in Business Analytics"></option>
+                          <option value = "Management-PhD"></option>
+                          <option value = "Materials Science and Engineering"></option>
+                          <option value = "Mathematics"></option>
+                          <option value = "Mechanical and Aerospace Engineering"></option>
+                          <option value = "Medical History"></option>
+                          <option value = "Medicine"></option>
+                          <option value = "Microbiology Immunology and Molecular Genetics"></option>
+                          <option value = "Middle Eastern Studies"></option>
+                          <option value = "Military Science"></option>
+                          <option value = "Molecular and Medical Pharmacology"></option>
+                          <option value = "Molecular Biology"></option>
+                          <option value = "Molecular Toxicology"></option>
+                          <option value = "Molecular Cell and Developmental Biology"></option>
+                          <option value = "Molecular Cellular and Integrative Physiology"></option>
+                          <option value = "Music"></option>
+                          <option value = "Music History"></option>
+                          <option value = "Music Industry"></option>
+                          <option value = "Musicology"></option>
+                          <option value = "Naval Science"></option>
+                          <option value = "Near Eastern Languages"></option>
+                          <option value = "Neurobiology"></option>
+                          <option value = "Neurology"></option>
+                          <option value = "Neuroscience"></option>
+                          <option value = "Neuroscience"></option>
+                          <option value = "Nursing"></option>
+                          <option value = "Obstetrics and Gynecology"></option>
+                          <option value = "Oral Biology"></option>
+                          <option value = "Pathology and Laboratory Medicine"></option>
+                          <option value = "Philosophy"></option>
+                          <option value = "Phyiscs"></option>
+                          <option value = "Physics and Biology in Medicine"></option>
+                          <option value = "Physiology"></option>
+                          <option value = "Polish"></option>
+                          <option value = "Political Science"></option>
+                          <option value = "Portuguese"></option>
+                          <option value = "Program in Computing"></option>
+                          <option value = "Psychiatry and Biobehavioral Sciences"></option>
+                          <option value = "Psychology"></option>
+                          <option value = "Public Health"></option>
+                          <option value = "Public Policy"></option>
+                          <option value = "Religion Study of"></option>
+                          <option value = "Romanian"></option>
+                          <option value = "Russian"></option>
+                          <option value = "Scandinavian"></option>
+                          <option value = "Science Education"></option>
+                          <option value = "Semitic"></option>
+                          <option value = "Serbian/Croatian"></option>
+                          <option value = "Slavic"></option>
+                          <option value = "Social Science"></option>
+                          <option value = "Social Thought"></option>
+                          <option value = "Social Welfare"></option>
+                          <option value = "Society and Genetics"></option>
+                          <option value = "Sociology"></option>
+                          <option value = "South Asian"></option>
+                          <option value = "Southeast Asian"></option>
+                          <option value = "Spanish"></option>
+                          <option value = "Statistics"></option>
+                          <option value = "Surgery "></option>
+                          <option value = "Swahili "></option>
+                          <option value = "Thai"></option>
+                          <option value = "Theater"></option>
+                          <option value = "Turkic Languages"></option>
+                          <option value = "University Studies"></option>
+                          <option value = "Urban Planning"></option>
+                          <option value = "Vietnamese"></option>
+                          <option value = "World Arts and Cultures"></option>
+                          <option value = "Yiddish"></option>
+                        </datalist>
+                        </label>
+                  </div>
+                   <div class="col-md-5 col-sm-5">
+                      <label>Class ID</label>
+                      <input class="form-control" type="text" name="class4">
+                      <div class="messages">Example. <b>CS33</b> input <b>33</b>, <b>Physics 4AL</b> input <b>4AL</b></div>
+                    
+                  </div>
+                </div>
+                <!-- /.row (nested) -->
+
+                <div class="row search"  id="5">
+                  <div class="col-md-6 col-sm-6" >
+                      <label>Subject Area
+                        <input class="form-control dropdown" list="somethingelse" name="sub5">
+                        <datalist id="somethingelse">
+                          <option value = "Aerospace Studies"></option>
+                          <option value = "African American Studies"></option>
+                          <option value = "African Studies"></option>
+                          <option value = "Afrikaans"></option>
+                          <option value = "American Indian Studies"></option>
+                          <option value = "American Sign Language"></option>
+                          <option value = "Ancient Near East"></option>
+                          <option value = "Anesthesiology"></option>
+                          <option value = "Anthropology"></option>
+                          <option value = "Applied Linguistics"></option>
+                          <option value = "Archaeology"></option>
+                          <option value = "Architecture and Urban Design"></option>
+                          <option value = "Armenian"></option>
+                          <option value = "Art"></option>
+                          <option value = "Art History"></option>
+                          <option value = "Arts and Architecture"></option>
+                          <option value = "Asian American Studies"></option>
+                          <option value = "Astronomy"></option>
+                          <option value = "Atmospheric and Oceanic Sciences"></option>
+                          <option value = "Bioengineering"></option>
+                          <option value = "Bioinformatics"></option>
+                          <option value = "Biological Chemistry"></option>
+                          <option value = "Biomathematics"></option>
+                          <option value = "Biomedical Research"></option>
+                          <option value = "Biostatistics"></option>
+                          <option value = "Central and East European Studies"></option>
+                          <option value = "Chemical Engineering"></option>
+                          <option value = "Chemistry and Biochemistry"></option>
+                          <option value = "Chicana and Chicano Studies"></option>
+                          <option value = "Chinese"></option>
+                          <option value = "Civic Engagement"></option>
+                          <option value = "Civil and Environmental Engineering"></option>
+                          <option value = "Classics"></option>
+                          <option value = "Clusters"></option>
+                          <option value = "Communication"></option>
+                          <option value = "Community Health Sciences"></option>
+                          <option value = "Comparative Literature"></option>
+                          <option value = "Computational and Systems Biology"></option>
+                          <option value = "Computer Science"></option>
+                          <option value = "Conservation of Archaeological and Ethnographic Materials"></option>
+                          <option value = "Dance"></option>
+                          <option value = "Design | Media Arts"></option>
+                          <option value = "Digital Humanities"></option>
+                          <option value = "Disability Studies "></option>
+                          <option value = "Dutch"></option>
+                          <option value = "Earth Planetary and Space Sciences"></option>
+                          <option value = "Ecology and Evolutionary Biology"></option>
+                          <option value = "Economics"></option>
+                          <option value = "Education"></option>
+                          <option value = "Electrical and Computer Engineering"></option>
+                          <option value = "Electrical Engineering"></option>
+                          <option value = "Engineering"></option>
+                          <option value = "English"></option>
+                          <option value = "English as A Second Language"></option>
+                          <option value = "English Composition"></option>
+                          <option value = "Environment"></option>
+                          <option value = "Environmental Health Sciences"></option>
+                          <option value = "Epidemiology"></option>
+                          <option value = "Ethnomusicology"></option>
+                          <option value = "Filipino"></option>
+                          <option value = "Film and Television"></option>
+                          <option value = "French"></option>
+                          <option value = "Gender Studies"></option>
+                          <option value = "Geography"></option>
+                          <option value = "German"></option>
+                          <option value = "Gerontology"></option>
+                          <option value = "Global Health"></option>
+                          <option value = "Global Studies"></option>
+                          <option value = "Graduate Student Professional Development"></option>
+                          <option value = "Greek"></option>
+                          <option value = "Health Policy and Management"></option>
+                          <option value = "Hebrew"></option>
+                          <option value = "Hindi-Urdu"></option>
+                          <option value = "History"></option>
+                          <option value = "Honors Collegium"></option>
+                          <option value = "Human Genetics"></option>
+                          <option value = "Hungarian"></option>
+                          <option value = "Indigenous Languages of the Americas"></option>
+                          <option value = "Indo-European Studies"></option>
+                          <option value = "Indonesian"></option>
+                          <option value = "Information Studies"></option>
+                          <option value = "International and Area Studies"></option>
+                          <option value = "International Development Studies"></option>
+                          <option value = "Iranian"></option>
+                          <option value = "Islamic Studies"></option>
+                          <option value = "Italian"></option>
+                          <option value = "Japanese"></option>
+                          <option value = "Jewish Studies"></option>
+                          <option value = "Korean"></option>
+                          <option value = "Labor and Workplace Studies"></option>
+                          <option value = "Latin"></option>
+                          <option value = "Latin American Studies"></option>
+                          <option value = "Lesbian Gay Bisexual Transgender and Queer Studies"></option>
+                          <option value = "Life Sciences"></option>
+                          <option value = "Linguistics"></option>
+                          <option value = "Management"></option>
+                          <option value = "Management-Master of Financial Engineering"></option>
+                          <option value = "Management-Master of Science in Business Analytics"></option>
+                          <option value = "Management-PhD"></option>
+                          <option value = "Materials Science and Engineering"></option>
+                          <option value = "Mathematics"></option>
+                          <option value = "Mechanical and Aerospace Engineering"></option>
+                          <option value = "Medical History"></option>
+                          <option value = "Medicine"></option>
+                          <option value = "Microbiology Immunology and Molecular Genetics"></option>
+                          <option value = "Middle Eastern Studies"></option>
+                          <option value = "Military Science"></option>
+                          <option value = "Molecular and Medical Pharmacology"></option>
+                          <option value = "Molecular Biology"></option>
+                          <option value = "Molecular Toxicology"></option>
+                          <option value = "Molecular Cell and Developmental Biology"></option>
+                          <option value = "Molecular Cellular and Integrative Physiology"></option>
+                          <option value = "Music"></option>
+                          <option value = "Music History"></option>
+                          <option value = "Music Industry"></option>
+                          <option value = "Musicology"></option>
+                          <option value = "Naval Science"></option>
+                          <option value = "Near Eastern Languages"></option>
+                          <option value = "Neurobiology"></option>
+                          <option value = "Neurology"></option>
+                          <option value = "Neuroscience"></option>
+                          <option value = "Neuroscience"></option>
+                          <option value = "Nursing"></option>
+                          <option value = "Obstetrics and Gynecology"></option>
+                          <option value = "Oral Biology"></option>
+                          <option value = "Pathology and Laboratory Medicine"></option>
+                          <option value = "Philosophy"></option>
+                          <option value = "Phyiscs"></option>
+                          <option value = "Physics and Biology in Medicine"></option>
+                          <option value = "Physiology"></option>
+                          <option value = "Polish"></option>
+                          <option value = "Political Science"></option>
+                          <option value = "Portuguese"></option>
+                          <option value = "Program in Computing"></option>
+                          <option value = "Psychiatry and Biobehavioral Sciences"></option>
+                          <option value = "Psychology"></option>
+                          <option value = "Public Health"></option>
+                          <option value = "Public Policy"></option>
+                          <option value = "Religion Study of"></option>
+                          <option value = "Romanian"></option>
+                          <option value = "Russian"></option>
+                          <option value = "Scandinavian"></option>
+                          <option value = "Science Education"></option>
+                          <option value = "Semitic"></option>
+                          <option value = "Serbian/Croatian"></option>
+                          <option value = "Slavic"></option>
+                          <option value = "Social Science"></option>
+                          <option value = "Social Thought"></option>
+                          <option value = "Social Welfare"></option>
+                          <option value = "Society and Genetics"></option>
+                          <option value = "Sociology"></option>
+                          <option value = "South Asian"></option>
+                          <option value = "Southeast Asian"></option>
+                          <option value = "Spanish"></option>
+                          <option value = "Statistics"></option>
+                          <option value = "Surgery "></option>
+                          <option value = "Swahili "></option>
+                          <option value = "Thai"></option>
+                          <option value = "Theater"></option>
+                          <option value = "Turkic Languages"></option>
+                          <option value = "University Studies"></option>
+                          <option value = "Urban Planning"></option>
+                          <option value = "Vietnamese"></option>
+                          <option value = "World Arts and Cultures"></option>
+                          <option value = "Yiddish"></option>
+                        </datalist>
+                        </label>
+                  </div>
+                  <div class="col-md-5 col-sm-5">
+                      <label>Class ID</label>
+                      <input class="form-control" type="text" name="class5">
+                      <div class="messages">Example. <b>CS33</b> input <b>33</b>, <b>Physics 4AL</b> input <b>4AL</b></div>
+                    
+                  </div>
+                </div>
+                <!-- /.row (nested) -->
+
+                <div class="row search"  id="6">
+                  <div class="col-md-6 col-sm-6" >
+                      <label>Subject Area
+                        <input class="form-control dropdown" list="somethingelse" name="sub6">
+                        <datalist id="somethingelse">
+                          <option value = "Aerospace Studies"></option>
+                          <option value = "African American Studies"></option>
+                          <option value = "African Studies"></option>
+                          <option value = "Afrikaans"></option>
+                          <option value = "American Indian Studies"></option>
+                          <option value = "American Sign Language"></option>
+                          <option value = "Ancient Near East"></option>
+                          <option value = "Anesthesiology"></option>
+                          <option value = "Anthropology"></option>
+                          <option value = "Applied Linguistics"></option>
+                          <option value = "Archaeology"></option>
+                          <option value = "Architecture and Urban Design"></option>
+                          <option value = "Armenian"></option>
+                          <option value = "Art"></option>
+                          <option value = "Art History"></option>
+                          <option value = "Arts and Architecture"></option>
+                          <option value = "Asian American Studies"></option>
+                          <option value = "Astronomy"></option>
+                          <option value = "Atmospheric and Oceanic Sciences"></option>
+                          <option value = "Bioengineering"></option>
+                          <option value = "Bioinformatics"></option>
+                          <option value = "Biological Chemistry"></option>
+                          <option value = "Biomathematics"></option>
+                          <option value = "Biomedical Research"></option>
+                          <option value = "Biostatistics"></option>
+                          <option value = "Central and East European Studies"></option>
+                          <option value = "Chemical Engineering"></option>
+                          <option value = "Chemistry and Biochemistry"></option>
+                          <option value = "Chicana and Chicano Studies"></option>
+                          <option value = "Chinese"></option>
+                          <option value = "Civic Engagement"></option>
+                          <option value = "Civil and Environmental Engineering"></option>
+                          <option value = "Classics"></option>
+                          <option value = "Clusters"></option>
+                          <option value = "Communication"></option>
+                          <option value = "Community Health Sciences"></option>
+                          <option value = "Comparative Literature"></option>
+                          <option value = "Computational and Systems Biology"></option>
+                          <option value = "Computer Science"></option>
+                          <option value = "Conservation of Archaeological and Ethnographic Materials"></option>
+                          <option value = "Dance"></option>
+                          <option value = "Design | Media Arts"></option>
+                          <option value = "Digital Humanities"></option>
+                          <option value = "Disability Studies "></option>
+                          <option value = "Dutch"></option>
+                          <option value = "Earth Planetary and Space Sciences"></option>
+                          <option value = "Ecology and Evolutionary Biology"></option>
+                          <option value = "Economics"></option>
+                          <option value = "Education"></option>
+                          <option value = "Electrical and Computer Engineering"></option>
+                          <option value = "Electrical Engineering"></option>
+                          <option value = "Engineering"></option>
+                          <option value = "English"></option>
+                          <option value = "English as A Second Language"></option>
+                          <option value = "English Composition"></option>
+                          <option value = "Environment"></option>
+                          <option value = "Environmental Health Sciences"></option>
+                          <option value = "Epidemiology"></option>
+                          <option value = "Ethnomusicology"></option>
+                          <option value = "Filipino"></option>
+                          <option value = "Film and Television"></option>
+                          <option value = "French"></option>
+                          <option value = "Gender Studies"></option>
+                          <option value = "Geography"></option>
+                          <option value = "German"></option>
+                          <option value = "Gerontology"></option>
+                          <option value = "Global Health"></option>
+                          <option value = "Global Studies"></option>
+                          <option value = "Graduate Student Professional Development"></option>
+                          <option value = "Greek"></option>
+                          <option value = "Health Policy and Management"></option>
+                          <option value = "Hebrew"></option>
+                          <option value = "Hindi-Urdu"></option>
+                          <option value = "History"></option>
+                          <option value = "Honors Collegium"></option>
+                          <option value = "Human Genetics"></option>
+                          <option value = "Hungarian"></option>
+                          <option value = "Indigenous Languages of the Americas"></option>
+                          <option value = "Indo-European Studies"></option>
+                          <option value = "Indonesian"></option>
+                          <option value = "Information Studies"></option>
+                          <option value = "International and Area Studies"></option>
+                          <option value = "International Development Studies"></option>
+                          <option value = "Iranian"></option>
+                          <option value = "Islamic Studies"></option>
+                          <option value = "Italian"></option>
+                          <option value = "Japanese"></option>
+                          <option value = "Jewish Studies"></option>
+                          <option value = "Korean"></option>
+                          <option value = "Labor and Workplace Studies"></option>
+                          <option value = "Latin"></option>
+                          <option value = "Latin American Studies"></option>
+                          <option value = "Lesbian Gay Bisexual Transgender and Queer Studies"></option>
+                          <option value = "Life Sciences"></option>
+                          <option value = "Linguistics"></option>
+                          <option value = "Management"></option>
+                          <option value = "Management-Master of Financial Engineering"></option>
+                          <option value = "Management-Master of Science in Business Analytics"></option>
+                          <option value = "Management-PhD"></option>
+                          <option value = "Materials Science and Engineering"></option>
+                          <option value = "Mathematics"></option>
+                          <option value = "Mechanical and Aerospace Engineering"></option>
+                          <option value = "Medical History"></option>
+                          <option value = "Medicine"></option>
+                          <option value = "Microbiology Immunology and Molecular Genetics"></option>
+                          <option value = "Middle Eastern Studies"></option>
+                          <option value = "Military Science"></option>
+                          <option value = "Molecular and Medical Pharmacology"></option>
+                          <option value = "Molecular Biology"></option>
+                          <option value = "Molecular Toxicology"></option>
+                          <option value = "Molecular Cell and Developmental Biology"></option>
+                          <option value = "Molecular Cellular and Integrative Physiology"></option>
+                          <option value = "Music"></option>
+                          <option value = "Music History"></option>
+                          <option value = "Music Industry"></option>
+                          <option value = "Musicology"></option>
+                          <option value = "Naval Science"></option>
+                          <option value = "Near Eastern Languages"></option>
+                          <option value = "Neurobiology"></option>
+                          <option value = "Neurology"></option>
+                          <option value = "Neuroscience"></option>
+                          <option value = "Neuroscience"></option>
+                          <option value = "Nursing"></option>
+                          <option value = "Obstetrics and Gynecology"></option>
+                          <option value = "Oral Biology"></option>
+                          <option value = "Pathology and Laboratory Medicine"></option>
+                          <option value = "Philosophy"></option>
+                          <option value = "Phyiscs"></option>
+                          <option value = "Physics and Biology in Medicine"></option>
+                          <option value = "Physiology"></option>
+                          <option value = "Polish"></option>
+                          <option value = "Political Science"></option>
+                          <option value = "Portuguese"></option>
+                          <option value = "Program in Computing"></option>
+                          <option value = "Psychiatry and Biobehavioral Sciences"></option>
+                          <option value = "Psychology"></option>
+                          <option value = "Public Health"></option>
+                          <option value = "Public Policy"></option>
+                          <option value = "Religion Study of"></option>
+                          <option value = "Romanian"></option>
+                          <option value = "Russian"></option>
+                          <option value = "Scandinavian"></option>
+                          <option value = "Science Education"></option>
+                          <option value = "Semitic"></option>
+                          <option value = "Serbian/Croatian"></option>
+                          <option value = "Slavic"></option>
+                          <option value = "Social Science"></option>
+                          <option value = "Social Thought"></option>
+                          <option value = "Social Welfare"></option>
+                          <option value = "Society and Genetics"></option>
+                          <option value = "Sociology"></option>
+                          <option value = "South Asian"></option>
+                          <option value = "Southeast Asian"></option>
+                          <option value = "Spanish"></option>
+                          <option value = "Statistics"></option>
+                          <option value = "Surgery "></option>
+                          <option value = "Swahili "></option>
+                          <option value = "Thai"></option>
+                          <option value = "Theater"></option>
+                          <option value = "Turkic Languages"></option>
+                          <option value = "University Studies"></option>
+                          <option value = "Urban Planning"></option>
+                          <option value = "Vietnamese"></option>
+                          <option value = "World Arts and Cultures"></option>
+                          <option value = "Yiddish"></option>
+                        </datalist>
+                        </label>
+                  </div>
+                  <div class="col-md-5 col-sm-5">
+                      <label>Class ID</label>
+                      <input class="form-control" type="text" name="class6">
+                      <div class="messages">Example. <b>CS33</b> input <b>33</b>, <b>Physics 4AL</b> input <b>4AL</b></div>
+                    
+                  </div>
+                </div>
+                <!-- /.row (nested) -->
+              </div>
+              <!-- /.col-lg-10 -->
+            </div>
+            <div class="row text-center">
+              <div class="col-lg-10 mx-auto">
+                  <span class="btn btn-primary" role="button" id="add">Add Class</span>
+                  <button  class="btn btn-primary" role="button" id="search">Search</button>
+              </div>
+            </div>
+            <!-- /.row -->
+          </form>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+
+    <!-- Footer -->
+    <footer id="selected">
+      <div class="container" >
+        <div class="row">
+          <div class="col-lg-10 mx-auto text-center">
+            <h2>Selected Class</h2>
+            <hr>
+            <ul id="clasList"></ul>
+          </div>
+        </div>
+      </div>
+      <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
+        <i class="fa fa-chevron-up fa-fw fa-1x"></i>
+      </a>
+    </footer>
+
+    <!-- About -->
+    <section id="services" class="about">
+      <div class="container text-center">
+        <h2>We automatically search the best classes and professors for your next quarter.</h2>
+        <p class="lead">Just type in the subject area and class name above. Simple as that.</p>
+      </div>
+      <!-- /.container -->
+    </section>
+
+
+
+    <aside class="callout">
+      <div class="text-vertical-center callout-bg">
+        <h1>Contributions</h1>
+        <h3>Boyuan He</h3>
+        <h3>Linqi Zhou</h3>
+        <h3>Ziming Yang</h3>
+      </div>
+    </aside>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.js"></script>
+
+  </body>
+
+</html>

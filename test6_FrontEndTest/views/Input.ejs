@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title</title>
+	<link rel="stylesheet" type="text/css" href="/Input.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+  
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script> 
+</head>
+<body>
+
+  <form class="ui form segment container" action="/search" method="POST" onkeypress="return event.keyCode != 13;">
+    <div class="ui grid">
+      
+      <div class="ten wide column first" id=1>
+        <div>
+          <a class="ui  ribbon big label">Subject Area</a>
+          <select class="ui search dropdown fluid" name="firstClass">
+          <option value="">State</option>
+          <option value="AL">Alabama</option>
+          <option value="AK">Alaska</option>
+          <option value="AZ">Arizona</option> 
+        </select>
+        </div>
+      </div>
+      <div class="six wide column first">
+        <div>
+          <a class="ui  right ribbon big label">Class Name</a>
+          <div class="ui input fluid">
+            <input type="text" name="firstClass" placeholder="Class">
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="ten wide column second" id=2>
+        <div>
+          <a class="ui  ribbon big label" name="secondClass">Subject Area</a>
+          <select class="ui search dropdown fluid">
+          <option value="">State</option>
+          <option value="AL">Alabama</option>
+          <option value="AK">Alaska</option>
+          <option value="AZ">Arizona</option> 
+        </select>
+        </div>
+      </div>
+      <div class="six wide column second">
+        <div>
+          <a class="ui  right ribbon big label">Class Name</a>
+          <div class="ui input fluid">
+            <input type="text" placeholder="Class" name="secondClass">
+          </div>
+        </div>
+      </div>
+      
+      <div class="ten wide column third" id=3>
+        <div>
+          <a class="ui  ribbon big label">Subject Area</a>
+          <select class="ui search dropdown fluid" name="thirdClass">
+          <option value="">State</option>
+          <option value="AL">Alabama</option>
+          <option value="AK">Alaska</option>
+          <option value="AZ">Arizona</option> 
+        </select>
+        </div>
+      </div>
+      <div class="six wide column third">
+        <div>
+          <a class="ui  right ribbon big label">Class Name</a>
+          <div class="ui input fluid">
+            <input type="text" placeholder="Class" name="thirdClass">
+          </div>
+        </div>
+      </div>
+      
+      <div class="ten wide column fourth" id=4>
+        <div>
+          <a class="ui  ribbon big label">Subject Area</a>
+          <select class="ui search dropdown fluid" name="fourthClass">
+          <option value="">State</option>
+          <option value="AL">Alabama</option>
+          <option value="AK">Alaska</option>
+          <option value="AZ">Arizona</option> 
+        </select>
+        </div>
+      </div>
+      <div class="six wide column fourth">
+        <div>
+          <a class="ui right ribbon big label">Class Name</a>
+          <div class="ui input fluid">
+            <input type="text" placeholder="Class" name="fourthClass">
+          </div>
+        </div>
+      </div>
+    
+      
+    </div>
+    <div class="ui fluid bottom button blue" id="add">Add</div>
+    <button class="ui fluid green button" id="submit">Search</button>
+    <div class="selected">
+      <a class="ui red ribbon big label">Selected Classes</a>
+      <ul></ul>
+    </div>
+  </form>
+  <div data-role="content">
+    <a id="changePageButton" data-role="button">Change Page!</a>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="/Input.js"></script>
+</body>
+</html>

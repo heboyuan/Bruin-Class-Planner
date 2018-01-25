@@ -1,0 +1,39 @@
+
+.fa.fa-user{
+    font-size:100%;
+}
+
+h1{
+    text-align: center;
+
+}
+
+.ui.red.ribbon.big.label{
+    margin-bottom: 1em;
+}
+
+#button{
+    border: none;
+    background: none;
+}
+
+.fa.fa-angle-double-down{
+    font-size:2em;
+    transform: scale(2,1);
+}
+
+.fa.fa-angle-double-up{
+      font-size:2em;
+    transform: scale(2,1);  
+}
+
+.ui.top.attached.label{
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+#smart{
+   margin-left:5px; 
+}
+

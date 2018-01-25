@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title</title>
+	<link rel="stylesheet" type="text/css" href="/Output.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+</head>
+<body id="body-image">
+
+<div id="landpage-image">
+
+<%result.forEach(function(y){%>
+
+  <div class="ui segment container">
+    <a class="ui orange ribbon big label"><%=y.name%></a>
+    
+    <%y.results.forEach(function(x){%>
+      <div>
+      <div class="ui grid">
+        <div class="three wide column">
+            <h1 class="ui header"><%=x.name%></h1>
+        </div>
+        <div class="two wide column">
+          <div class="ui top attached label"><h3>Overall</h3></div>
+          <div><h1><%=x.rating['Overall ']%></h1></div>
+        </div>
+        <div class="two wide column">
+          <div class="ui top attached label"><h3>Easiness</h3></div>
+          <div><h1><%=x.rating['Easiness of class ']%></h1></div>
+        </div>
+        <div class="two wide column">
+          <div class="ui top attached label"><h3>Workload</h3></div>
+          <div><h1><%=x.rating['Workload ']%></h1></div>
+        </div>
+        <div class="two wide column">
+          <div class="ui top attached label"><h3>Clarity</h3></div>
+          <div><h1><%=x.rating['Clarity of professor']%></h1></div>
+        </div>
+        <div class="two wide column">
+          <div class="ui top attached label"><h3>Helpfulness</h3></div>
+          <div><h1><%=x.rating['Helpfulness of professor']%></h1></div>
+        </div>
+      </div>
+    <div class="details">
+      <div class="ui segment container " id="scoreDis">
+        <a class="ui blue ribbon large label">Grade Distribution</a>
+        <div class="graph" id='<%=x.name%>' style='width:100%; height:100%; margin-top:10px; text-align: center'></div>
+      </div>
+      <%x.comments.forEach(function(com){%>
+        <div class="ui segment container">
+          <a class="ui blue ribbon large label"><div>Term: <%=com.term%></div><div>Grade: <%=com.grade%></div></a>
+          <div><%=com.content%></div>
+        </div>
+      <%})%>
+      </div>
+      <button class="fluid ui button myButton"><i class="fa fa-angle-double-down" aria-hidden="true"></i><div>Detials</div></button>
+      </div>
+    <%})%>
+  </div>
+<%})%>
+
+</div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="/graph.js">
+</script>
+
+<script>
+google.charts.load("visualization",  '1.1',  {packages:['corechart']});
+  google.charts.setOnLoadCallback(function(){
+    var myVar = <%- JSON.stringify(result) %>;
+    myVar.forEach(function(x){
+      x.results.forEach(function(y){
+        grade_dist_graph(y.scores, y.name);
+        
+      })
+    })
+  });
+</script>
+<script type="text/javascript" src="/Output.js"></script>
+</body>
+</html>
