@@ -8,4 +8,4 @@ Smart class planner for bruins, input the class names and we will find the optim
 ![alt text](https://github.com/heboyuan/Bruin-Class-Planner/blob/master/input.png)
 
 ### Result example
-![alt text](https://github.com/heboyuan/Bruin-Class-Planner/blob/master/result.png)
+![alt text](https://github.com/heboyuan/Bruin-Class-Planner/blob/master/show.png)
